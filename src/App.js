@@ -44,9 +44,9 @@ export default function App() {
         Generated Color: {color}
       </div>
       Hue:
-      <input type="text" value={hue} onChange={handleHueChange} />
+      <input value={hue} onChange={handleHueChange} />
       Luminosity:
-      <input type="text" value={luminosity} onChange={handleLuminosityChange} />
+      <input value={luminosity} onChange={handleLuminosityChange} />
       <button
         style={{
           width: '100%',
